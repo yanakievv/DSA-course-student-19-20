@@ -36,10 +36,8 @@ int binarySearch(int *array, int length, int target)
 
 int main() 
 {
-
     int arr[] = {0, 1, 2, 3, 4, 5};
     
     std::cout << "Index of 4 is " << binarySearch(&arr[0], 6, 4) << std::endl;
     std::cout << "Index of 10 is " << binarySearch(&arr[0], 6, 10) << std::endl;
-
 }
