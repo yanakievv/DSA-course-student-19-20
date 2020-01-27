@@ -263,13 +263,31 @@ private:
 		current->fixtree();
 		return current;
 	}
-	void _print(Node* current)
+	void _inorder(Node* current)
 	{
 		if (current)
 		{
-			_print(current->left);
+			_inorder(current->left);
 			std::cout << current->data << " ";
-			_print(current->right);
+			_inorder(current->right);
+		}
+	}
+	void _preorder(Node* current)
+	{
+		if (current)
+		{
+			std::cout << current->data << " ";
+			_preorder(current->left);
+			_preorder(current->right);
+		}
+	}
+	void _postorder(Node* current)
+	{
+		if (current)
+		{
+			_postorder(current->left);
+			_postorder(current->right);
+			std::cout << current->data << " ";
 		}
 	}
 public:
@@ -320,11 +338,25 @@ public:
 		else std::cout << "Element is currently not present." << std::endl;
 	}
 
-	void print()
+	void inorder()
 	{
 		if (root)
 		{
-			_print(root);
+			_inorder(root);
+		}
+	}
+	void preorder()
+	{
+		if (root)
+		{
+			_preorder(root);
+		}
+	}
+	void postorder()
+	{
+		if (root)
+		{
+			_postorder(root);
 		}
 	}
 };
@@ -335,8 +367,8 @@ int main()
 	{
 		tree.insert(i);
 	}
-	tree.print();
+	tree.inorder();
 	std::cout << std::endl;
 	tree.remove(10);
-	tree.print();
+	tree.inorder();
 }
