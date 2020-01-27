@@ -44,19 +44,16 @@ void mergesort(int* arr, int lenght)
 	delete[] mergearr;
 }
 
-int main() {
+int main() 
+{
 
-	int arr[] = { 2, 5, 3, 6, 1, 4 };
-	int * arrStart = &arr[0];
+    int arr[] = {3, 4, 1, 5, 2, 6};
+    
+    countingSort(&arr[0], 6);
 
-	mergesort(arrStart, 6);
+    for (int i = 0; i < 6; i++) 
+    {
+        std::cout << arr[i] << ", ";
 
-	for (int i = 0; i < 6; i++)
-	{
-
-		std::cout << arr[i] << ", ";
-
-	}
-	std::cout << "\n";
-
+    }
 }
