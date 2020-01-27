@@ -20,18 +20,13 @@ Homeworks:
 
 
 Tests:
+- https://www.hackerrank.com/contests/sda-2019-2020-test1/challenges
+- https://www.hackerrank.com/contests/sda-test2/challenges
+- https://www.hackerrank.com/contests/sda-2019-2020-test3/challenges
+- https://www.hackerrank.com/contests/sda-2019-2020-test4/challenges
+- https://www.hackerrank.com/contests/sda-2019-2020-test5/challenges
+//to be added test 6 and 7
 
-- https://www.hackerrank.com/sda-test
-- https://www.hackerrank.com/sda-ttest-2
-- https://www.hackerrank.com/sdatest3
-- https://www.hackerrank.com/test4-sda-
-- https://www.hackerrank.com/sda-test-5
-- https://www.hackerrank.com/test6-sda
-- https://www.hackerrank.com/test7-sda-soft-eng
-
-Exam prep:
-
-- https://www.hackerrank.com/prepareforfinalexam
 
 Exam:
-- https://www.hackerrank.com/sda-exam-27-01-19-
+- https://www.hackerrank.com/contests/sda-2019-2020-exam-2e3nr4rr/challenges
