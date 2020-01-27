@@ -1,22 +1,37 @@
-# DSA-course-student-19-20
+# Materials for the course Data Structures and Algorithms
+## Included
+- All covered data structures in cpp
+- All covered algorithms in cpp
+- Homework, test and exam links with solutions
 
-##Included:\
-  -Data structures covered by course.\
-  -Algorithms covered by course.\
-  -Homework assignments.\
-  -Tests and final exam.\
-\
-\
-Homework links:\
-  -HW #1: https://www.hackerrank.com/practice-1-sda \
-  -HW #2: https://www.hackerrank.com/practice-2-sda \
-  -HW #3: https://www.hackerrank.com/practice-3-sda \
-  -HW #4: https://www.hackerrank.com/practice-4-sda \
-  -HW #5: https://www.hackerrank.com/practice-5-sda \
-  -HW #6: https://www.hackerrank.com/practice-6-sda \
-  -HW #7: https://www.hackerrank.com/practice-7-sda \
-  -HW #8: https://www.hackerrank.com/practice-8-sda \
-  -HW #9: https://www.hackerrank.com/practice-9-sda \
-\
-Test links: \
-Test #1: \
+
+
+Homeworks:
+
+- https://www.hackerrank.com/practice-1-sda
+- https://www.hackerrank.com/practice-2-sda
+- https://www.hackerrank.com/practice-3-sda
+- https://www.hackerrank.com/practice-4-sda
+- https://www.hackerrank.com/practice-5-sda
+- https://www.hackerrank.com/practice-6-sda
+- https://www.hackerrank.com/practice-7-sda
+- https://www.hackerrank.com/practice-8-sda
+- https://www.hackerrank.com/practice-9-sda
+
+
+Tests:
+
+- https://www.hackerrank.com/sda-test
+- https://www.hackerrank.com/sda-ttest-2
+- https://www.hackerrank.com/sdatest3
+- https://www.hackerrank.com/test4-sda-
+- https://www.hackerrank.com/sda-test-5
+- https://www.hackerrank.com/test6-sda
+- https://www.hackerrank.com/test7-sda-soft-eng
+
+Exam prep:
+
+- https://www.hackerrank.com/prepareforfinalexam
+
+Exam:
+- https://www.hackerrank.com/sda-exam-27-01-19-
