@@ -24,8 +24,8 @@ Tests:
 - https://www.hackerrank.com/contests/sda-test2/challenges
 - https://www.hackerrank.com/contests/sda-2019-2020-test3/challenges
 - https://www.hackerrank.com/contests/sda-2019-2020-test4/challenges
-- https://www.hackerrank.com/contests/sda-2019-2020-test5/challenges
-\ //to be added test 6 and 7
+- https://www.hackerrank.com/contests/sda-2019-2020-test5/challenges \
+ //to be added test 6 and 7
 
 
 Exam:
