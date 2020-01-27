@@ -37,7 +37,7 @@ void _mergesort(int* arr, int*mergearr, int l, int r)
 	}
 }
 
-void mergesort(int* arr, int lenght)
+void mergeSort(int* arr, int lenght)
 {
 	int* mergearr = new int[lenght];
 	_mergesort(arr, mergearr, 0, lenght - 1);
@@ -49,7 +49,7 @@ int main()
 
     int arr[] = {3, 4, 1, 5, 2, 6};
     
-    countingSort(&arr[0], 6);
+    mergeSort(&arr[0], 6);
 
     for (int i = 0; i < 6; i++) 
     {
