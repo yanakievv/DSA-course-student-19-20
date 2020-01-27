@@ -32,24 +32,21 @@ void _quicksort(int* arr, int l, int r)
 	}
 }
 
-void quicksort(int* arr, int lenght)
+void quickSort(int* arr, int lenght)
 {
 	_quicksort(arr, 0, lenght - 1);
 }
 
-int main() {
+int main() 
+{
 
-	int arr[] = { 2, 5, 3, 6, 1, 4 };
-	int * arrStart = &arr[0];
+    int arr[] = {3, 4, 1, 5, 2, 6};
+    
+    quickSort(&arr[0], 6);
 
-	quicksort(arrStart, 6);
+    for (int i = 0; i < 6; i++) 
+    {
+        std::cout << arr[i] << ", ";
 
-	for (int i = 0; i < 6; i++)
-	{
-
-		std::cout << arr[i] << ", ";
-
-	}
-	std::cout << "\n";
-
+    }
 }
