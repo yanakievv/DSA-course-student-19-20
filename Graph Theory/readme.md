@@ -1,5 +1,5 @@
 # Graph Algorithms
-Graph is representet using adjacency list.
+Graph is represented using adjacency list.
 
 Public functions: 
 
