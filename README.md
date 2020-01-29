@@ -2,7 +2,8 @@
 ## Included
 - All covered data structures in cpp
 - All covered algorithms in cpp
-- Homework, test and exam links with solutions
+- Homework, test and exam links
+- Solutions to most of the problems, with the list expanding (revisiting unsolved problems during course)
 
 
 
