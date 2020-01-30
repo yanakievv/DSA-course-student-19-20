@@ -139,12 +139,12 @@ struct Node
 	{
 		if (balance() < -1) // right is heavier
 		{
-			if (right->balance() < -1) // RR
+			if (right->balance() <= -1) // RR
 			{
 				this->rotateleft();
 				recalculateheights();
 			}
-			else if (right->balance() > 1) //RL
+			else if (right->balance() >= 1) //RL
 			{
 				right->rotateright();
 				this->rotateleft();
@@ -153,12 +153,12 @@ struct Node
 		}
 		else if (balance() > 1) // left is heavier
 		{
-			if (left->balance() > 1) // LL
+			if (left->balance() >= 1) // LL
 			{
 				this->rotateright();
 				recalculateheights();
 			}
-			else if (left->balance() < -1) // LR
+			else if (left->balance() <= -1) // LR
 			{
 				left->rotateleft();
 				this->rotateright();
